@@ -1,5 +1,5 @@
 nav {
-    background: #32CD32; /* Gentle green */
+    background: #32CD32; 
     padding: 10px;
     border-radius: 10px;
     display: flex;
@@ -8,15 +8,15 @@ nav {
   }
   
   nav a {
-    color: #FFFACD; /* Pale yellow text */
+    color: #FFFACD; 
     text-decoration: none;
     padding: 8px 15px;
-    background: #FF6347; /* Soft red */
+    background: #FF6347; 
     border-radius: 5px;
     transition: background 0.3s ease;
   }
   
   nav a:hover {
-    background: #FFFACD; /* Pale yellow */
-    color: #FF6347; /* Soft red */
+    background: #FFFACD; 
+    color: #FF6347;
   }
