@@ -1,15 +1,72 @@
 .mailbox-details {
-    background: #FFFACD; /* Pale yellow */
+    background-color: #f9f9f9;
     padding: 20px;
-    border: 2px solid #FF6347; /* Soft red */
-    border-radius: 10px;
-    max-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
     margin: 20px auto;
+  }
+  
+  .mailbox-details h2 {
+    font-size: 24px;
+    color: #7d2626;
+    align-items: center;
+    margin-bottom: 20px;
     text-align: center;
   }
   
-  .mailbox-details p {
-    margin: 10px 0;
-    font-size: 1.2rem;
-    color: #333333;
+  .mailbox-details dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+  }
+  
+  .mailbox-details dt {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .mailbox-details dd {
+    margin: 0;
+  }
+  
+  .not-found {
+    color: #e74c3c;
+    text-align: center;
+  }.mailbox-details {
+    background-color: #fdd5d5;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  .mailbox-details h2 {
+    font-size: 24px;
+    color: #3a3333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .mailbox-details dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+  }
+  
+  .mailbox-details dt {
+    font-weight: bold;
+    color: #393737;
+  }
+  
+  .mailbox-details dd {
+    margin: 0;
+  }
+  
+  .not-found {
+    color: #e43f2d;
+    text-align: center;
   }

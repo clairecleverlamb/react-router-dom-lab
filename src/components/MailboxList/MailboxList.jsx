@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import './MailboxList.css'
 
 const MailboxList = ({ mailboxes }) => {
-    console.log(mailboxes);
     return (
         <div className='mailbox-list'>
           <h2>Mailbox List</h2>
@@ -11,13 +10,11 @@ const MailboxList = ({ mailboxes }) => {
           ) : (
             <ul>
                 {mailboxes.map((currentMailbox) => (
-                    <div className='mailbox-item'>
-                        <li key={currentMailbox._id}>
+                        <li key={currentMailbox._id} className='mailbox-item'>
                             <Link to={`/mailboxes/${currentMailbox._id}`}>
                                 {currentMailbox.boxOwner || 'Unnamed'} - Box #{currentMailbox._id}
                             </Link>
                         </li>
-                    </div>
                 ))}
             </ul>
           )}

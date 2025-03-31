@@ -6,13 +6,16 @@
   }
   
   .mailbox-item {
-    display: flex;
-    background: #FFFACD;
+    display: block;
+    background: url('../../assets/coinbox.png') no-repeat center center;
+    opacity: 0.9;
+    background-size: contain;
     padding: 15px;
     border: 2px solid #FF6347; 
     border-radius: 10px;
     text-align: center;
     transition: transform 0.2s ease;
+    min-height: 100px;
   }
   
   .mailbox-item:hover {
@@ -20,7 +23,38 @@
   }
   
   .mailbox-item a {
-    color: #333333; 
-    text-decoration: none;
+    position: relative;
+    z-index: 2;
+    color: #ca2626;
+    font-weight: bold;
     font-size: 1.2rem;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+  }
+
+  .mailbox-list p {
+    font-family: 'Press Start 2P', cursive; 
+    font-size: 1.5rem; 
+    color: #FF6347; 
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 15px 20px; 
+    border: 2px dashed #32CD32; 
+    border-radius: 8px; 
+    text-align: center; 
+    text-shadow: 1px 1px 1px #000; 
+    margin: 20px 0; 
+  }
+
+  .mailbox-list p::after {
+    content: '';
+    position: absolute;
+    bottom: 0; 
+    left: 50%; /* Centers horizontally */
+    transform: translateX(-50%); /* Adjusts for centering */
+    width: 80%; /* Slightly narrower than the text */
+    height: 20px; /* Height of the box */
+    background-color: rgba(255, 215, 0, 0.8); /* Gold with slight transparency */
+    border: 2px solid #32CD32; /* Green border for Mario pipe vibe */
+    border-radius: 5px;
+    z-index: -1; /* Places the box behind the text */
   }

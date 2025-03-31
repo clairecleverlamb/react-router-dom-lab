@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import './MailboxDetails.css';
 
 const MailboxDetails = (props) => {
     const { mailboxId } = useParams();
@@ -6,7 +7,7 @@ const MailboxDetails = (props) => {
       (mbox) => mbox._id === parseInt(mailboxId)
     );
 
-    if(!mailboxId) return <h2>Mailbox Not Found!</h2>;
+    if(!mailboxId) return <h2 className="not-found">Mailbox Not Found!</h2>;
 
     return (
         <div className="mailbox-details">
