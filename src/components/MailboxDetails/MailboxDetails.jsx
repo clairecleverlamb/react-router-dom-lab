@@ -9,7 +9,7 @@ const MailboxDetails = (props) => {
     if(!mailboxId) return <h2>Mailbox Not Found!</h2>;
 
     return (
-        <>
+        <div className="mailbox-details">
           <h2>Mailbox Details</h2>
           <dl>
             <dt>Box Number: </dt>
@@ -19,7 +19,7 @@ const MailboxDetails = (props) => {
             <dt>Size: </dt>
             <dd>{selectedBox.boxSize}</dd>
           </dl>
-        </>
+        </div>
     );
 };
 

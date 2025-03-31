@@ -1,0 +1,22 @@
+nav {
+    background: #32CD32; /* Gentle green */
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  nav a {
+    color: #FFFACD; /* Pale yellow text */
+    text-decoration: none;
+    padding: 8px 15px;
+    background: #FF6347; /* Soft red */
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  nav a:hover {
+    background: #FFFACD; /* Pale yellow */
+    color: #FF6347; /* Soft red */
+  }

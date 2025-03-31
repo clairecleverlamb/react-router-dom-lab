@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import './MailboxForm.css'
 
 
 const MailboxForm = ({ addMailbox, mailboxCount }) => {
@@ -18,7 +19,7 @@ const MailboxForm = ({ addMailbox, mailboxCount }) => {
     };
 
     return (
-        <main>
+        <main className='mailbox-form'>
             <h2>New Mailbox</h2>
             <form onSubmit={handleSubmit}>
                 <label htmlFor="boxOwner">Box Owner: </label>

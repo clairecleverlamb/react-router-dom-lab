@@ -1,0 +1,39 @@
+.mailbox-form {
+    background: #32CD32; /* Gentle green */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  .mailbox-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #FFFACD; /* Pale yellow */
+    font-weight: bold;
+  }
+  
+  .mailbox-form input, .mailbox-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #FF6347; /* Soft red */
+    border-radius: 8px;
+    background: #FFFFFF;
+    color: #333333;
+    box-sizing: border-box;
+  }
+  
+  .mailbox-form button {
+    background: #FF6347; /* Soft red */
+    color: #FFFACD; /* Pale yellow */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+  }
+  
+  .mailbox-form button:hover {
+    background: #FFFACD; /* Pale yellow */
+    color: #FF6347; /* Soft red */
+  }

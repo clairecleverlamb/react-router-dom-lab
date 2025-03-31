@@ -1,0 +1,15 @@
+.mailbox-details {
+    background: #FFFACD; /* Pale yellow */
+    padding: 20px;
+    border: 2px solid #FF6347; /* Soft red */
+    border-radius: 10px;
+    max-width: 300px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .mailbox-details p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #333333;
+  }
