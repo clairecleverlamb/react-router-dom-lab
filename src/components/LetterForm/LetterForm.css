@@ -1,0 +1,92 @@
+.letter-form {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #e2bcbc; 
+    border: 3px solid #ff0000;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .letter-form h2 {
+    color: #ff0000; 
+    font-family: 'Arial', sans-serif; 
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+  }
+  
+  .letter-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+  }
+  
+  .letter-form div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  .letter-form label {
+    color: #0056b3;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+  }
+  
+
+  .letter-form input,
+  .letter-form select,
+  .letter-form textarea {
+    padding: 0.75rem;
+    border: 2px solid #007bff; 
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa96; 
+    color: #333;
+  }
+  
+
+  .letter-form textarea {
+    min-height: 120px; 
+    resize: vertical;
+  }
+  
+
+  .letter-form input:hover,
+  .letter-form select:hover,
+  .letter-form textarea:hover,
+  .letter-form input:focus,
+  .letter-form select:focus,
+  .letter-form textarea:focus {
+    border-color: #ff0000; 
+    outline: none;
+  }
+  
+
+  .letter-form button {
+    padding: 0.75rem 1.5rem;
+    background-color: #ff0000; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center; 
+  }
+  
+
+  .letter-form button:hover {
+    background-color: #d40000; 
+  }
+  
+  .letter-form input:required,
+  .letter-form select:required,
+  .letter-form textarea:required {
+    border-left: 4px solid #ffcc00; 
+  }
